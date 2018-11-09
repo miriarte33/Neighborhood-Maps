@@ -1,0 +1,46 @@
+.side-bar {
+	text-align: center;
+	flex: 1;
+	max-height: 100vh;
+}
+
+.search-filter {
+	display: flex; 
+	flex-direction: column; 
+	padding: 1em;
+	padding-bottom: 0;
+}
+
+.search-filter * {
+	margin: 2px;
+}
+
+.place-list {
+	list-style: none;
+	padding: 1em; 
+	height: 70vh; 
+	overflow-y: scroll;
+}
+
+.list-item {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-top: 1px black solid; 
+	border-bottom: 1px black solid; 
+	cursor: pointer;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.place-details {
+	list-style: none;
+	padding: 0;
+}
+
+.place-details li {
+	padding: 5px; 
+}
+
+.list-item:last-child {
+	border-bottom: 1px black solid;
+}

@@ -1,0 +1,15 @@
+.info {
+	font-size: 10px;
+	text-align: center;
+}
+
+.info h1 {
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	margin-bottom: 0px;
+}
+
+.info p {
+	margin-top: 0.5em;
+	font-size: 12px;
+}
